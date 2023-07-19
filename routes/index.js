@@ -7,6 +7,7 @@ exports.routerConfig = (app) => {
 //hello, this is commit added by Yash's teacher
 //this is change that is done by Pratham Thakarani
 //this changed by yash dhimmar
+//this changed by dhaval dhimmar
 app.post('/register',userController.registration)
 
 app.post('/login',userController.login)
