@@ -5,6 +5,7 @@ exports.routerConfig = (app) => {
     
 // app.post('/about',userController.about)
 //hello, this is commit added by Yash's teacher
+//this is change that is done by Pratham Thakarani
 app.post('/register',userController.registration)
 
 app.post('/login',userController.login)
